@@ -1,0 +1,12 @@
+It is often the case that the data we receive has missing
+information in some columns. For instance, some customer’s
+data might be missing their age. If the data has a large
+number of missing entries, the result of data analysis may be
+unpredictable or even wrong. Missing values in a dataset can
+be either
+· Ignored,
+· Filled-in, or
+· Removed or dropped.
+Ignoring the missing values is often not a good solution
+because it leads to erroneous results. Let us create a Series
+object with missing values
